@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EXER 2</title>
+</head>
+<body>
+    <p id="resultadoErro"></p>
+    <p id="resultadoAcerto"></p>
+    <script>
+         //Escreva um código que verifique se duas palavras inseridas pelo usuário são iguais (sem diferenciar maiúsculas de minúsculas)
+
+    const resultadoAcerto = document.getElementById('resultadoAcerto')
+    const resultadoErro = document.getElementById('resultadoErro')
+    resultadoAcerto.textContent = ''
+    resultadoErro.textContent = ''
+
+     var txt1 = prompt('Insira a primeira palavra:')
+     var txt2 = prompt('Insira a segunda palavra:')
+
+     if(txt1.toLowerCase() == txt2.toLowerCase()){
+        resultadoAcerto.textContent = "As palavras são inguais"
+        resultadoAcerto.classList.add('show')
+     } else{
+        resultadoErro.textContent = 'As palavras são diferentes' 
+        resultadoErro.classList.add('show')
+     }
+    </script>
+</body>
+</html>

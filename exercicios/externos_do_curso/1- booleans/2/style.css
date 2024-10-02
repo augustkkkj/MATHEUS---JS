@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#resultadoErro{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -27px;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.1); 
+    border: 1px solid red;
+    line-height: 1.5; 
+    border-radius: 4px; 
+    text-align: center; 
+    transition: opacity 0.3s ease;
+    min-height: 20px;
+    opacity: 0;
+}
+
+#resultadoErro{
+    font-size: 1.5rem;
+    text-align: center;
+    color: hwb(0 0% 100%);
+    text-transform: uppercase;
+}
+
+#resultadoAcerto{
+    font-size: 1.5rem;
+    text-align: center;
+    color: hwb(0 0% 100%);
+    text-transform: uppercase;
+}
+
+#resultadoErro.show{
+    opacity: 1;
+}
+
+#resultadoAcerto.show{
+    opacity: 1;
+}
+
+#resultadoAcerto{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -27px;
+    padding: 10px;
+    background-color: rgba(0, 255, 34, 0.1); 
+    border: 1px solid #00ff22; 
+    line-height: 1.5; 
+    border-radius: 4px; 
+    text-align: center; 
+    transition: opacity 0.3s ease;
+    min-height: 20px;
+    opacity: 0;
+}

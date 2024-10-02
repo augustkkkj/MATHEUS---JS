@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>EXER 3</title>
+  </head>
+  <body>
+    <p id="resultadoErro"></p>
+    <p id="resultadoAcerto"></p>
+    <script>
+      const resultado1 = document.getElementById("resultadoAcerto");
+      const resultado2 = document.getElementById("resultadoErro");
+      resultado1.textContent = "";
+      resultado2.textContent = "";
+      var num1 = 18;
+      var idade = prompt("digite sua idade: ");
+      if (num1 < idade) {
+        resultado1.textContent = "Vc é mais maior, pode entrar!";
+        resultado1.classList.add("show");
+      } else {
+        resultado2.textContent = "Vc é mais menor do maior, pode entrar não!!";
+        resultado2.classList.add("show");
+      }
+    </script>
+  </body>
+</html>

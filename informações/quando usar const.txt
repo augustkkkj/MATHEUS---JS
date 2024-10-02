@@ -1,0 +1,19 @@
+quando devo utilizar uma const?
+
+devo utilizar quando tenho certeza que o valor da variavel não será reatribuido dps de inicializar. ou seja, se eu declarar algo com const, o valor incial atribuido não pode ser modificiado.
+
+EX: 
+
+valors constantes:
+const PI = 3.424343 //quando tenho um valor não pode mudar durante a execusão do codigo, como uma configuração fixa ou string.
+
+referencias imutaveis:
+o conteudo de objetos arrays declarados com const possar ser modificado, a referencia á variavel não pode mudar. isso signica q vc pode alterar as propriedades de um objeto ou elementos de um array, mas não pode reatribuir o objeto ou array em si.
+
+const arr = [1, 2, 3]
+arr.push(4) // permitido
+arr = [5, 6] //erro
+
+
+
+usar const evita que eu possa alterar uma variavel por engano e ser bem tarde.

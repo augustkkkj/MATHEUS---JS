@@ -1,0 +1,6 @@
+* Não pode comear com um número(let 2teste)
+* Mas pode terminar com o número (let teste9 = 'testando')
+* Pode ter $ ou _, mas não outros caracteres especiais(let $nome, _nome)
+* Mas não pode ter pontuação ou outros especiais(let @teste)
+* Podemos iniciar com letra maiúscula(let Nome = 'Otavio')
+* Ou usar camelCase (let meuPrimeiroNome = 'Otavio')

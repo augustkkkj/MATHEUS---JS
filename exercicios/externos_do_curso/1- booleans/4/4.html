@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>EXER 4</title>
+  </head>
+  <body>
+    <p id="resultadoErro"></p>
+    <p id="resultadoAcerto"></p>
+    <script>
+        //se tiver mais de 18 anos pode entrar
+      const resultado1 = document.getElementById("resultadoAcerto")
+      const resultado2 = document.getElementById("resultadoErro")
+      resultado1.textContent = ""
+      resultado2.textContent = ""
+      var num1 = 1
+      var num2 = 2
+      var num3 = 3
+
+      var vdd = prompt('Insira um número:')
+      vdd = Number(vdd)
+      if (vdd === num3) {
+            resultado1.textContent = 'É show, papai!'
+        } else {
+            resultado2.textContent = 'Não é show, papai!'
+        }
+    </script>
+  </body>
+</html>1

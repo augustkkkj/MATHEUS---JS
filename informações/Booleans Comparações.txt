@@ -1,0 +1,10 @@
+1- Mairo que: >
+2- Menor que: <
+3- Maior ou igual: >=
+4- Menor ou igual: <=
+5- Igual: ==
+6- Diferente: !=
+7- Identico: ===
+8- E: && -> para ser true, os dois 'lados' da comparação precisam ser true
+9- Ou: || -> para ser true, basta um dos 'lados' da comparação ser true
+10= Não: ! -> inverter os valores(true vira false)
