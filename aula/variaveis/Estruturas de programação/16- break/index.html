@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break</title>
+</head>
+<body>
+    <script>    
+    // USANDO BREAK COM NUMBERS
+    for(let i = 5; i < 20; i = i + 2){
+        if(i % 10 == 0){
+            console.log('Saiu do loop')
+            break;
+        }
+        console.log('Prosseguinod o loop')
+    }
+
+     // USANDO BREAK COM STRINGS
+     let nome = "otavio"
+     for(let z = 0; 0 < 10; z = z + 1){
+        
+
+        if(z == 3){
+            nome = "augusto"
+        }
+
+        if(z == 5 && nome == "augusto"){
+            console.log("O nome é augusto, pode parar")
+            break;
+        }
+        console.log(z)
+     }
+    </script>
+</body>
+</html>
