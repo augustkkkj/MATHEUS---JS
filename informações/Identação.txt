@@ -1,0 +1,7 @@
+* Serve para organizar o codigo e deixar masi legivel
+
+* Não ha uma regra, porem cada bloco aninhado dever identado uma vez
+
+* Pessoa vão te agradecer no futuro por identar o codigo
+
+* Para a execusão do codigo não afeta em nada
