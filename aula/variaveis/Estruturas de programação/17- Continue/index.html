@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continue</title>
+</head>
+<body>
+    <script>    
+    for(let i = 10; i > 0; i = i -1)
+        //  O LOOP COMEÇA COM i = 10 E VAI DIMINUINDO ATE CHEGAR EM 1(i > 0)
+        // A CADA ITERAÇÃO O VALOR DE I É DESCREMENTADO POR 1
+    {
+        if(i % 2 == 0)
+        // ESSA CONDIÇÃO VERIFICA SE O VALOR DE i É PAR ( i % 2 == 0)
+        {
+            console.log("Caiu no continue")
+            continue;
+
+            // SE i FOR PAR, A MENSAGEM "CAIU NO CONTINUE" É EXIBIDA NO CONSOLE, 
+            // SE O 'CONTINUE' FAZ COM Q O RESTANTE DO CODIGO DENTRO DO LOOP SEJA IGORADO NESSA INTERAÇÃO
+            // ASSIM O CONSOLE.LOG(i) ABAIXO NÃO SERA EXECUTADO PARA VALORES PARES
+        }
+        console.log(i)
+        // SE i NÃO FOR PAR, ESTA LINHA EXIBE O VALOR ATUAL DE i CONSOLE
+    }
+    </script>
+</body>
+</html>
