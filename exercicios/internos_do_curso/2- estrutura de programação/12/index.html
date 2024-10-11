@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12</title>
+  </head>
+  <body>
+    <script>
+      function classificarNumero(numero) {
+        if (numero > 0 && numero % 2 === 0) {
+          return "Positivo e Par";
+        } else if (numero > 0 && numero % 2 !== 0) {
+          return "Positivo e Ímpar";
+        } else if (numero < 0) {
+          return "Negativo";
+        } else {
+          return "Neutro";
+        }
+      }
+
+      console.log(classificarNumero(4));
+      console.log(classificarNumero(7));
+      console.log(classificarNumero(-3));
+      console.log(classificarNumero(0));
+    </script>
+  </body>
+</html>
